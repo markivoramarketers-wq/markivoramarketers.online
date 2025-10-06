@@ -5,6 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: "/markivoramarketers.online/", // 👈 ye line add karni hai (repo name ya domain name)
   server: {
     host: "::",
     port: 8080,
@@ -16,3 +17,4 @@ export default defineConfig(({ mode }) => ({
     },
   },
 }));
+
